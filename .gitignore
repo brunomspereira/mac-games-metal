@@ -1,0 +1,27 @@
+# Source-only repository: exclude all runtime, game, save, log, and app data.
+/*
+!/.gitignore
+!/README.md
+!/SETUP.md
+!/TESTING.md
+!/Install Rosetta.command
+!/source/
+/source/*
+!/source/main.swift
+!/source/build-metal.sh
+!/source/check-runtime.py
+!/source/metal-smoke.m
+!/source/d9mtmetal.h
+!/source/MacGames.png
+!/source/MacGames.icns
+!/config/
+/config/*
+!/config/dxvk.conf
+!/config/commandline.txt
+!/LICENSES/
+/LICENSES/*
+!/LICENSES/DXVK-LICENSE.txt
+!/LICENSES/SPIRV-Cross-LICENSE.txt
+!/LICENSES/DXMT-LICENSE.txt
+!/LICENSES/WINE-LICENSE.txt
+!/LICENSES/COPYING.LIB
